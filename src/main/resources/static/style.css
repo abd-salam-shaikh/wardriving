@@ -1,0 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+#map {
+    flex: 1;
+}
+header {
+    display: -webkit-flex;
+    display: flex;
+    padding: 0 .5em;
+}
+h1 {
+    font-size: 1.2em;
+}
+nav {
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: right;
+}
